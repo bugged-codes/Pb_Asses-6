@@ -8,43 +8,70 @@ body{
     background-color: white;
     border: 10px solid red;
     border-radius: 25px;
-    padding: 0px 80px;
+    padding: 0px 50px;
     box-shadow: 10px 10px 5px purple;
 }
 
 #top-para{
     margin: 0.5rem auto;
-    padding: 5px 50px;
+    padding: 5px 10px;
     color: darkred;
     font-style: italic;
     font-weight: 900; 
-    font-size: 145%;
+    font-size: 200%;
     text-align: center;
     text-shadow: 4px 4px 4px purple;
+}
+
+#image{
+    /* position: relative; */
+    /* margin: 1em 1em; */
+    width: 100%;
+    height: 80%;
 }
 
 #parent-middle-div{
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid darkgreen;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid rgb(0 100 0);
 }
 
-.middle-left-divs{
-    justify-content: left;
+.middle-top-divs{
+    margin-top: 1rem;
+    margin-bottom: 10rem;
 }
 
 .middle-right-divs{
-    justify-content: right;
+    margin-left: 20rem;
+    margin-right: 2rem;
+}
+
+.middle-bottom-divs{
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+}
+
+.middle-left-divs{
+    margin-left: 1rem;
+    margin-right: 20rem;
 }
 
 .middle-divs{
-    margin: 2rem 2rem;
-    display: flexbox;
-    width: 25%;
+    width: 12rem;
+    height: 16rem;
     background-color: white;
     border: 10px solid red;
     border-radius: 25px;
-    padding: 0px 80px;
-    box-shadow: 10px 10px 5px purple;    
+    padding: 10px 10px;
+    box-shadow: 10px 10px 5px purple;
+    font-size: 140%;
+    font-weight: 900;
+    text-align: center;
+    text-decoration-color: black;
+    text-shadow: 2px 2px 2px purple;
 }
 
