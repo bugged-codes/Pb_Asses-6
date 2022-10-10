@@ -1,0 +1,50 @@
+body{
+    background-color: darkgray;
+}
+
+#top-div{
+    margin: auto;
+    width: 25%;
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 25px;
+    padding: 0px 80px;
+    box-shadow: 10px 10px 5px purple;
+}
+
+#top-para{
+    margin: 0.5rem auto;
+    padding: 5px 50px;
+    color: darkred;
+    font-style: italic;
+    font-weight: 900; 
+    font-size: 145%;
+    text-align: center;
+    text-shadow: 4px 4px 4px purple;
+}
+
+#parent-middle-div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid darkgreen;
+}
+
+.middle-left-divs{
+    justify-content: left;
+}
+
+.middle-right-divs{
+    justify-content: right;
+}
+
+.middle-divs{
+    margin: 2rem 2rem;
+    display: flexbox;
+    width: 25%;
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 25px;
+    padding: 0px 80px;
+    box-shadow: 10px 10px 5px purple;    
+}
+
